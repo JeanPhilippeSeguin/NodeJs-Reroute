@@ -12,31 +12,31 @@ const port = process.env.port || 5000;
 
 
 app.get('/',(request, response) => {
-    response.sendFile('index.html', {
+    response.sendFile('public/index.html', {
         root: './'
     })
 })
 
 app.get('/about', (request, response) => {
-    response.sendFile('about.html', {
+    response.sendFile('public/about.html', {
         root: './'
     })
 })
 
 app.get('/contact-me', (request, response) => {
-    response.sendFile('contact-me.html', {
+    response.sendFile('public/contact-me.html', {
         root: './'
     })
 })
 app.use(function (req, res, next) {
-    res.status(404).sendFile('404.html',{
+    res.status(404).sendFile('public/404.html',{
         root: './'
     })
   })
 
 app.listen(port, () => {
     const search = request.originalUrl;
-    console.log(`Request is ${request.url}`)
+    console.log(`connected on ${port}`)
 })
 
 

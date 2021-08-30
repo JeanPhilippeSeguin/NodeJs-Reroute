@@ -1,0 +1,24 @@
+{
+  "name": "NodeJs-Reroute",
+  "version": "1.0.0",
+  "description": "Basic Re-router with NodeJs bundled with expressJs (display correct HTML file depending on request URL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanPhilippeSeguin/NodeJs-Reroute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanPhilippeSeguin/NodeJs-Reroute/issues"
+  },
+  "homepage": "https://github.com/JeanPhilippeSeguin/NodeJs-Reroute#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "qs": "^6.10.1"
+  }
+}
